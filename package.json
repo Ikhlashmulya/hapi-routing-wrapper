@@ -1,16 +1,30 @@
 {
-  "name": "hapi-routing",
+  "name": "hapi-routing-wrapper",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "hapi",
+    "routing"
+  ],
+  "author": "Ikhlashmulya",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "@hapi/hapi": "^21.4.0",
     "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "@hapi/hapi": "^21.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ikhlashmulya/hapi-routing-wrapper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ikhlashmulya/hapi-routing-wrapper/issues"
   }
 }
