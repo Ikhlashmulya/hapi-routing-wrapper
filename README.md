@@ -2,6 +2,11 @@
 
 wrapper for router Hapi.js.
 
+## install
+```
+npm install hapi-routing-wrapper
+```
+
 ## how to use 
 ```js
 const router = new HapiRouter();
